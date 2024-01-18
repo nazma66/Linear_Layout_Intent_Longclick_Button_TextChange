@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="            Happy Buy "
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="#A4C1DD"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Product Name:"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#A4C1DD"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Product Name">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Product Price:"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#A4C1DD"
+        ></TextView>
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:layout_margin="20dp"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Product Quantity:"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#A4C1DD"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:layout_margin="20dp"
+        >
+
+    </EditText>
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Total Price"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
